@@ -57,6 +57,11 @@ namespace CSI124_Static__Lecture8
 
         }
 
+        //Can you have a static field that takes an instanced object?
+        //One common error in C# coders encounter is when a static method tries to call an instance variable.
+        //This is because static methods cannot call instance variables.
+        //Static methods can be called from anywhere (depending on their access modifier),
+        //and they do NOT require us to create an object for a particular class.
         private void btnRefreshInformation_Click(object sender, RoutedEventArgs e)
         {
             runDisplay.Text = Shelter.ShelterInformation();
