@@ -9,11 +9,12 @@
     <Grid Background="#FF4A98C0">
         <TextBox x:Name="txtBox" HorizontalAlignment="Left" Margin="61,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="198" Height="35"/>
         <Button x:Name="btnShelterchengename" Content="Shelter Change Name" HorizontalAlignment="Left" Margin="76,112,0,0" VerticalAlignment="Top" Width="141" Height="31" Click="btnShelterchengename_Click"/>
-        <Button x:Name="btnOpenNewWindow" Content="Open New Window" HorizontalAlignment="Left" Margin="76,193,0,0" VerticalAlignment="Top" Width="141" Height="24" Click="btnOpennewWindow_Click"/>
-        <RichTextBox x:Name="runDisplay" Margin="362,25,27,33">
+        <Button x:Name="btnOpenNewWindow" Content="Open New Window" HorizontalAlignment="Left" Margin="76,193,0,0" VerticalAlignment="Top" Width="141" Height="24" Click="btnOpenNewWindow_Click"/>
+        <RichTextBox  Margin="362,25,27,33">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run x:Name="runDisplay" Text="runDisplay"/>
+                          
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>

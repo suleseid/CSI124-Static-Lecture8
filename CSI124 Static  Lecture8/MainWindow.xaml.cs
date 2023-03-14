@@ -21,7 +21,9 @@ namespace CSI124_Static__Lecture8
     public partial class MainWindow : Window
     {
         private object textShelterName;
-       // private Shelter ShelterName;
+        
+
+        // private Shelter ShelterName;
 
         public MainWindow()
         {
@@ -58,6 +60,7 @@ namespace CSI124_Static__Lecture8
         private void btnRefreshInformation_Click(object sender, RoutedEventArgs e)
         {
             runDisplay.Text = Shelter.ShelterInformation();
+     
         }
 
         private void btnShelterchengename_Click(object sender, RoutedEventArgs e)
